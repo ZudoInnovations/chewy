@@ -70,7 +70,7 @@ class DogProductsDownloaderMiddleware:
 
     def process_request(self, request, spider):
         # Called for each request that goes through the downloader
-        # middleware.
+        # middleware
 
         # Must either:
         # - return None: continue processing this request

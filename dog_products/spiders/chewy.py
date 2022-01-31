@@ -34,6 +34,8 @@ class ChewySpider(scrapy.Spider):
 
             yield response.follow(product_link, callback=self.product_details, meta=meta)
 
+            '''Pagination'''
+
             next_page_url = response.xpath("//a[contains(.,'Next')]/@href").get()
 
             if next_page_url:
