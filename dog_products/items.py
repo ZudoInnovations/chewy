@@ -17,4 +17,3 @@ class DogProductsItem(scrapy.Item):
     KeyBenefits = scrapy.Field()
     Ingredients = scrapy.Field()
     ProductUrl = scrapy.Field()
-    pass
